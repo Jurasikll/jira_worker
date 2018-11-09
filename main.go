@@ -3,8 +3,9 @@ package main
 
 import (
 	"fmt"
-)
+	"net/http"
+	"net/url"
+	"strings"
 
-func main() {
-	fmt.Println("Hello World!")
-}
+	jira "github.com/andygrunwald/go-jira"
+)
